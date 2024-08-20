@@ -1,7 +1,7 @@
+import os
+os.environ['HF_TOKEN']="HF_TOKEN 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"
 from transformers import AutoModelForCausalLM,AutoTokenizer
 from peft import PeftModel
-
-
 class InferlessPythonModel:
     def initialize(self):
         self.tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
