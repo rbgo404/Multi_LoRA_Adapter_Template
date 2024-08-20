@@ -1,5 +1,5 @@
 import os
-os.environ['HF_TOKEN']="HF_TOKEN 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"
+os.environ['HF_TOKEN']="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"
 from transformers import AutoModelForCausalLM,AutoTokenizer
 from peft import PeftModel
 class InferlessPythonModel:
